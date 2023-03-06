@@ -1,3 +1,4 @@
+//Вывести все простые числа от 1 до 1000
 package Home_work_Java.home_work1;
 
 public class task2 {
