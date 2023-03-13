@@ -71,7 +71,7 @@ public class task2 {
         return "получил";
     }
     public static void main(String[] args) throws IOException {
-        String str = linesArray("file_home_work2_task2.txt");
+        String str = linesArray("/D:/GeekBrains/Home_work_Java/Home_work_Java/home_work2/file_home_work2_task2.txt");
         str = str.replaceAll("\"", "");
         String[] linesArray = getArrayLinesFromString(str);
         String[][][] dataArray = getArrayData(linesArray);
