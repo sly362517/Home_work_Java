@@ -2,6 +2,7 @@
 // Ввод:5
 // Треугольное число 1 + 2 + 3 + 4 + 5 = 15
 // n! 1 * 2 * 3 * 4 * 5 = 120
+
 package Home_work_Java.home_work1;
 
 import java.util.Scanner;
@@ -34,9 +35,9 @@ public class task1 {
             if (n < 1)
                 System.out.println("Вы должны ввести только положительное число!");
             else {
-                System.out.printf("Треугольное число %d равно: %s! ", n, task1.get_triangle_number(n));
+                System.out.printf("Треугольное число %d равно: %s ", n, task1.get_triangle_number(n));
                 System.out.println();
-                System.out.printf("Факториал %d равен: %s! ", n, task1.get_factorial(n));
+                System.out.printf("Факториал %d равен: %s ", n, task1.get_factorial(n));
             }
         }
         scn.close();
