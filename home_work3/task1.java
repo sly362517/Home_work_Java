@@ -1,3 +1,5 @@
+// Реализовать алгоритм сортировки слиянием
+
 package Home_work_Java.home_work3;
 
 import java.util.ArrayList;
